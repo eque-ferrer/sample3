@@ -1,0 +1,71 @@
+/* just trying these out lol */
+*{
+  Font-family:"Montserrat";
+  color:black;
+}
+
+h1 {
+  color:white;
+  background-color:black;
+}
+/* testing */
+
+/* Exercise One: Centering the text in a span */
+
+#exerciseOne {
+  display:block;
+  text-align:center;
+}
+
+/* Exercise Two: Positioning a Header Bar*/
+#exerciseTwo {
+  display:none;
+}
+
+/* Exercise Three: */
+#exercisethree {
+  position:relative;
+  top:100px;
+  left:200px;
+}
+
+/* Exercise Four: */
+#exercisefour {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%
+}
+
+/* Exercise Five */
+#exerciseFive{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#exerciseFive img{
+  height:35px
+}
+
+/* Exercise Six */
+#exerciseFive {
+  flex-direction:row-reverse
+}
+
+#exerciseSeven {
+  display: flex;
+  flex-direction:column-reverse;
+  align-items:center;
+  justify-content:space-around
+}
+
+#itemOne, #itemTwo, #itemThree, #itemFour {
+  height:30px;
+  width:30px;
+  margin:30px
+}
+
+#itemOne {
+  align-self:flex-end;
+}
