@@ -37,7 +37,7 @@ function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
-  // arr.unshift(item);
+  arr.unshift(item);
   return arr;
 }
 
