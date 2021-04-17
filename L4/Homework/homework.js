@@ -4,7 +4,7 @@
 const newString = "Blue" ;
 
 //create a number variable, it an be any number
-// const newNum = 123 ;
+const newNum = 123 ;
 
 //create a boolean variable
 const newBool = false ;
